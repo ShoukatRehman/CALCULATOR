@@ -17,8 +17,14 @@ namespace ConsoleApplication1
             Console.WriteLine("Please enter value two ");
             valueTwo = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("The Result is " +( valueOne + valueTwo));
-
+            if (valueOne==valueTwo)
+            {
+                Console.WriteLine("Value are equal");
+            }
+            else
+            {
+                Console.WriteLine("value are different");
+            }
             Console.ReadLine();
         }
     }
